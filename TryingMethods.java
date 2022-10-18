@@ -6,4 +6,25 @@ public class TryingMethods {
   public static void main(String[] args) {
     
   }
+
+  public static String dayOfWeek(int day) {
+    return switch (day) {
+      case 0:
+        yield "Monday";
+      case 1:
+        yield "Tuesday";
+      case 2:
+        yield "Wednesday";
+      case 3:
+        yield "Thursday";
+      case 4:
+        yield "Friday";
+      case 5:
+        yield "Saturday";
+      case 6:
+        yield "Sunday";          
+      default:
+        yield "Please provide a number between 0 and 6";
+    };
+  }
 }
