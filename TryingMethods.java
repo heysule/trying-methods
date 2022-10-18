@@ -7,7 +7,7 @@ public class TryingMethods {
     
   }
 
-  public static String dayOfWeek(int day) {
+  public String dayOfWeek(int day) {
     return switch (day) {
       case 0:
         yield "Monday";
