@@ -27,4 +27,16 @@ public class TryingMethods {
         yield "Please provide a number between 0 and 6";
     };
   }
+
+  public static int sum1To999() {
+    int sum = 0;
+    int i = 1;
+
+    while (i < 999) {
+      sum += i;
+      i++;
+    }
+
+    return sum;
+  }
 }
