@@ -22,10 +22,20 @@ public class TryingMethods {
       case 5:
         yield "Saturday";
       case 6:
-        yield "Sunday";          
+        yield "Sunday";
       default:
         yield "Please provide a number between 0 and 6";
     };
+  }
+  
+  public static void truthOrDare(String ans) {
+    if (ans == "truth") {
+      System.out.println("What is your biggest secret?");
+    } else if (ans == "dare") {
+      System.out.println("Dance to a tiktok challenge");
+    } else {
+      System.out.println("The argument should be either truth or dare.");
+    }
   }
 
   public static int sum1To999() {
